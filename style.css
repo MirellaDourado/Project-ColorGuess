@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(to Bottom, #D1C6F3, #E9BCAC );
+  background-attachment: fixed;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+main {
+  background-color: white;
+  width: 1100px;
+  height: 560px;
+  margin: auto;
+  box-shadow: 0 0 1em black;
+  margin-top: 35px;
+}
+
+#title, h2{
+  text-align: center;
+}
+#title{
+  padding: 20px;
+  background-color: #586994c0;
+  margin: auto;
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  color: #984447;
+}
+
+#rgb-color {
+  font-size: 25px;
+}
+
+#answer{
+  font-size: 20px;
+}
+
+.ball {
+  border-radius: 50%;
+  padding: 28px;
+  display: inline-block;
+  margin: 6px
+}
+
+#circles {
+  margin: auto;
+  width: 204px;
+  justify-content: center;
+}
+
+#answer {
+  text-align: center;
+}
+
+#rgb-color {
+  text-align: center;
+}
+
+#divScore {
+  text-align: center;
+  margin: 0;
+}
+
+#divScore p {
+  display: inline-block;
+  margin-left: 2px;
+  color: #984447;
+  font-size: 20px;
+}
+
+#resetDiv {
+  display: flex;
+  justify-content: center;
+}
